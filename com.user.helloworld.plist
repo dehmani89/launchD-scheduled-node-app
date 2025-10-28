@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>com.user.helloworld</string>
+
+    <key>ProgramArguments</key>
+    <array>
+      <string>{ENTER_PATH_TO_NODE}</string>
+      <string>{ENTER_PATH_TO_NODE_APP_JS_FILE}</string>
+    </array>
+
+    <key>StartInterval</key>
+    <integer>10</integer>
+
+    <key>StandardErrorPath</key>
+    <string>{ENTER_PATH_TO_ERROR_LOG_FILE}/stderr.log</string>
+    <key>StandardOutPath</key>
+    <string>{ENTER_PATH_TO_SUCCESS_LOG_FILE}/stdout.log</string>
+
+    <key>KeepAlive</key>
+    <false/>
+  </dict>
+</plist>
